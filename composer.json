@@ -1,0 +1,30 @@
+{
+"name": "iatanasov77/laravel-cms",
+    "description": "The IA Laravel static content manager.",
+    "keywords": [ "framework", "laravel", "cms", "static pages"],
+    "license": "MIT",
+    "homepage": "https://github.com/iatanasov77/laravel-cms",
+    "authors": [
+        {
+            "name": "Ivan I. Atanasov",
+            "email": "i.atanasov77@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=7.0",
+       "laravel/framework" : "^5.4",
+       "iatanasov77/laravel-core": "dev-master#v0.1.5"
+    },
+    "repositories": [
+	    {
+            "type": "git",
+            "url": "https://github.com/iatanasov77/laravel-core.git"
+        }
+	],
+    "autoload": {
+        "psr-4": {
+            "IA\\LaravelCms\\": "src/"
+        }
+    },
+    "minimum-stability" : "dev"
+}
