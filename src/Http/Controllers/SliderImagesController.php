@@ -1,4 +1,4 @@
-<?php namespace IA\LaravelCms\Http\Controllers;
+<?php namespace IA\Laravel\Modules\Cms\Http\Controllers;
 
 use IA\LaravelCore\CRUD\ExtendedResourceController;
 use IA\LaravelCore\CRUD\Grid\Grid;

@@ -1,6 +1,6 @@
 <?php
 
-namespace IA\LaravelCms\Entities;
+namespace IA\Laravel\Modules\Cms\Entities;
 
 use Dimsav\Translatable\Translatable;
 use Cviebrock\EloquentSluggable\Sluggable;

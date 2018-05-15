@@ -1,6 +1,6 @@
 <?php
 
-namespace IA\LaravelCms\Entities;
+namespace IA\Laravel\Modules\Cms\Entities;
 
 use Dimsav\Translatable\Translatable;
 use Cviebrock\EloquentSluggable\Sluggable;
@@ -28,7 +28,7 @@ class StaticPage extends Model
 
     public function category()
     {
-        return $this->belongsTo( '\IA\LaravelCms\Entities\Category' );
+        return $this->belongsTo( '\IA\Laravel\Modules\Cms\Entities\Category' );
     }
 
     /**

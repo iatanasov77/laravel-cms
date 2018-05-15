@@ -23,7 +23,7 @@
 	],
     "autoload": {
         "psr-4": {
-            "IA\\LaravelCms\\": "src/"
+            "IA\\Laravel\\Modules\\Cms\\": "src/"
         }
     },
     "minimum-stability" : "dev"

@@ -1,10 +1,10 @@
-<?php namespace IA\LaravelCms\Http\Controllers;
+<?php namespace IA\Laravel\Modules\Cms\Http\Controllers;
 
 use IA\LaravelCore\CRUD\ExtendedResourceController;
 use IA\LaravelCore\CRUD\Grid\Grid;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
-use IA\LaravelCms\Entities\Category;
+use IA\Laravel\Modules\Cms\Entities\Category;
 
 class StaticPagesController extends ExtendedResourceController
 {

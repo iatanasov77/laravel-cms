@@ -1,12 +1,12 @@
 <?php
 
-namespace IA\LaravelCms\Http\Controllers;
+namespace IA\Laravel\Modules\Cms\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Model;
 
 use IA\LaravelCore\CRUD\ResourceController;
-use IA\LaravelCms\Entities\Portlet;
+use IA\Laravel\Modules\Cms\Entities\Portlet;
 
 class PortletsController extends ResourceController
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace IA\LaravelCms\Http\Controllers;
+namespace IA\Laravel\Modules\Cms\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use IA\LaravelCms\Entities\SliderImageTranslation;
+use IA\Laravel\Modules\Cms\Entities\SliderImageTranslation;
 
 class SliderImagesTranslationsController extends Controller
 {

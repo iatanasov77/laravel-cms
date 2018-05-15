@@ -1,6 +1,6 @@
 <?php
 
-namespace IA\LaravelCms\Providers;
+namespace IA\Laravel\Modules\Cms\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;

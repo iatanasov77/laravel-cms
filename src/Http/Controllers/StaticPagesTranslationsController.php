@@ -1,7 +1,7 @@
-<?php namespace IA\LaravelCms\Http\Controllers;
+<?php namespace IA\Laravel\Modules\Cms\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use IA\LaravelCms\Entities\StaticPageTranslation;
+use IA\Laravel\Modules\Cms\Entities\StaticPageTranslation;
 
 class StaticPagesTranslationsController extends Controller
 {
