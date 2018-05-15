@@ -6,23 +6,23 @@ return [
     'name' => 'CMS',
     'resources' => [
         'staticpages'    => [
-            'entityType'    => '\Modules\CMS\Entities\StaticPage',
+            'entityType'    => '\IA\LaravelCms\Entities\StaticPage',
             'viewNamespace' => 'admin.modules.cms.staticpages',
             'routePath'     => '/admin/cms/static-pages',
-            'requestClass'  => '\Modules\CMS\Http\Requests\StaticPagesRequest'
+            'requestClass'  => '\IA\LaravelCms\Http\Requests\StaticPagesRequest'
         ],
         'portlets'    => [
-            'entityType'    => '\Modules\CMS\Entities\Portlet',
+            'entityType'    => '\IA\LaravelCms\Entities\Portlet',
             'viewNamespace' => 'admin.modules.cms.portlets',
             'routePath'     => '/admin/cms/portlets',
-            'requestClass'  => '\Modules\CMS\Http\Requests\PortletsRequest'
+            'requestClass'  => '\IA\LaravelCms\Http\Requests\PortletsRequest'
         ],
         'sliderimages'    => [
-            'entityType'    => '\Modules\CMS\Entities\SliderImage',
+            'entityType'    => '\IA\LaravelCms\Entities\SliderImage',
             'listMethod'    => 'withDeactivated',
             'viewNamespace' => 'admin.modules.cms.sliderimages',
             'routePath'     => '/admin/cms/slider-images',
-            'requestClass'  => '\Modules\CMS\Http\Requests\SliderImagesRequest'
+            'requestClass'  => '\IA\LaravelCms\Http\Requests\SliderImagesRequest'
         ]
     ]
 ];

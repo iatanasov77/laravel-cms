@@ -1,7 +1,7 @@
-<?php namespace Modules\CMS\Http\Controllers;
+<?php namespace IA\LaravelCms\Http\Controllers;
 
-use OrmBg\Core\CRUD\ExtendedResourceController;
-use OrmBg\Core\CRUD\Grid\Grid;
+use IA\LaravelCore\CRUD\ExtendedResourceController;
+use IA\LaravelCore\CRUD\Grid\Grid;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;

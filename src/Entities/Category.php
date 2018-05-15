@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\CMS\Entities;
+namespace IA\LaravelCms\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 use Cviebrock\EloquentSluggable\Sluggable;
@@ -18,7 +18,7 @@ class Category extends Model
 
     public function pages()
     {
-        return $this->hasMany( 'Modules\CMS\Entities\StaticPage' );
+        return $this->hasMany( 'IA\LaravelCms\Entities\StaticPage' );
     }
 
     /**

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Request;
 
 Route::group( ['prefix' => Request::segment( 1 )], function ()
 {
-    Route::group( ['middleware' => 'web', 'prefix' => 'admin/cms', 'namespace' => 'Modules\CMS\Http\Controllers'], function()
+    Route::group( ['middleware' => 'web', 'prefix' => 'admin/cms', 'namespace' => 'IA\LaravelCms\Http\Controllers'], function()
     {
         Route::resource( 'static-pages', 'StaticPagesController', [ 'as' => 'admin.cms'] );
 
