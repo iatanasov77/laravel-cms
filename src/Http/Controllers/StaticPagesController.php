@@ -1,7 +1,7 @@
 <?php namespace IA\Laravel\Modules\Cms\Http\Controllers;
 
-use IA\LaravelCore\CRUD\ExtendedResourceController;
-use IA\LaravelCore\CRUD\Grid\Grid;
+use IA\Laravel\Core\CRUD\ExtendedResourceController;
+use IA\Laravel\Core\CRUD\Grid\Grid;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use IA\Laravel\Modules\Cms\Entities\Category;

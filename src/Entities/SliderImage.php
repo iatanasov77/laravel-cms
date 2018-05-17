@@ -6,8 +6,8 @@ use Dimsav\Translatable\Translatable;
 use Rutorika\Sortable\SortableTrait;
 use Cog\Flag\Traits\Classic\HasActiveFlag;
 use Illuminate\Database\Eloquent\Model;
-use IA\LaravelCore\Model\Interfaces\SortAwareInterface;
-use IA\LaravelCore\Model\Interfaces\ActivatableAwareInterface;
+use IA\Laravel\Core\Model\Interfaces\SortAwareInterface;
+use IA\Laravel\Core\Model\Interfaces\ActivatableAwareInterface;
 
 class SliderImage extends Model implements SortAwareInterface, ActivatableAwareInterface
 {

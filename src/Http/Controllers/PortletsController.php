@@ -5,7 +5,7 @@ namespace IA\Laravel\Modules\Cms\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Model;
 
-use IA\LaravelCore\CRUD\ResourceController;
+use IA\Laravel\Core\CRUD\ResourceController;
 use IA\Laravel\Modules\Cms\Entities\Portlet;
 
 class PortletsController extends ResourceController
