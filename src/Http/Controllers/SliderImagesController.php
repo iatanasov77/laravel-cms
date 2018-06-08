@@ -32,7 +32,7 @@ class SliderImagesController extends ExtendedResourceController
         
         $grid->image( __('Снимка') )->display( function ( $image )
         {
-            $html   = '<img src="' . config( 'orm.upload_provider' ) . '/' . base64_encode( $this->image ) . '" width="100" />';
+            $html   = '<img src="' . config( 'ia.upload_provider' ) . '/' . base64_encode( $this->image ) . '" width="100" />';
             
             return $html;
         });
