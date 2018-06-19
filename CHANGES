@@ -1,0 +1,7 @@
+1.0.0:
+-----
+Release date: **19.06.2018**
+
+ * fix config namespace in the provider class
+ * Fix class namespaces
+ * Remove uneeded directories
